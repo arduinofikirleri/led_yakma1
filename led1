@@ -1,0 +1,18 @@
+void setup() {
+  // LED'i kontrol etmek için bir pin ayarla
+  pinMode(13, OUTPUT);
+}
+
+void loop() {
+  // LED'i yak
+  digitalWrite(13, HIGH);
+
+  // Bekleme
+  delay(1000);
+
+  // LED'i söndür
+  digitalWrite(13, LOW);
+
+  // Bekleme
+  delay(1000);
+}
